@@ -41,10 +41,13 @@ export default {
     border-left: 1px solid #E0E0E0;
     background: #FDFDFD;
     gap: 61px;
+    width: 77%;
     padding: 30px 30px 30px 21px;
   .user-info__img {
-    width: 424px;
+    width: 44%;
     height: 286px;
+    object-fit: cover;
+    object-position: center center;
     border: 1px solid #E0E0E0;
   }
   .user-info__about {
