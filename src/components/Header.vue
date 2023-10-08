@@ -9,6 +9,7 @@
   .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 46px 50px 30px 50px;
     .header__logo {
       color: #E31F24;
@@ -16,6 +17,9 @@
       font-weight: 700;
       line-height: normal;
       margin: 0;
+      @media screen and (max-width: 530px) {
+        font-size: 25px;
+      }
     }
     .header__page-name {
       color: #333;
@@ -23,6 +27,12 @@
       font-weight: 400;
       line-height: normal;
       margin: 0;
+      @media screen and (max-width: 530px) {
+        font-size: 12px;
+      }
+      @media screen and (max-width: 365px) {
+        display: none;
+      }
     }
   }
 </style>

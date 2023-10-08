@@ -28,4 +28,9 @@ export default {
     margin: 0 50px 58px 50px;
     min-height: 575px;
   }
+  @media screen and (max-width: 1440px) {
+    .info-wrapper {
+      flex-direction: column;
+    }
+  }
 </style>
